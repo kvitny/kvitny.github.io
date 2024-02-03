@@ -71,10 +71,124 @@
 
   <main class="main o-container">
     <h1 class="u-sr-only">TODO:</h1>
-    <div class="o-grid">
-      <div class="o-col-6">
-        <h2>Subscription</h2>
+    <div class="o-grid content-section content-section--main">
+      <div class="o-col-6 o-col-3--md content-section__image">
+        <div class="image-wrapper">
+          <picture>
+            <!-- TODO: -->
+            <!-- <source type="image/jpeg" srcset="" media="(max-width: 768px)"> -->
+            <!-- loading="lazy" -->
+            <img class="image image-position--top" src="/assets/images/subscription/subscription-into.png" alt="TODO:">
+          </picture>
+        </div>
       </div>
+      <div class="o-col-6 o-col-3--md content-section__text-content">
+        <h2 class="content-section__title">
+          Підписка на квіти
+        </h2>
+        <p>ми розуміємо наскільки важка і кропітлива робота ствоерння затишку в домі, тому ми готові взяти частину обовʼязків на себе і подбати про те, аби у вашій оселі завжди були свіжі квіти.</p>
+        <p class="u-text--small u-margin-top--xs">а ви в цей час нагадайте близьким як сильно ви їх любите.</p>
+        <a class="u-margin-top--lg button--primary" href="#">замовити підпску</a>
+      </div>
+    </div>
+    <div class="subscription-section">
+      <h3 class="subscription-section__title">Обери розмір:</h3>
+      <div class="subscription-section__options">
+        <div class="subscription-section__option subscription-section__option--size">
+          <input
+            class="subscription-section__option-input u-sr-only"
+            type="radio"
+            name="subscriptionSize"
+            id="subscriptionSizeSmall"
+            value="small"
+          />
+          <label class="subscription-section__option-label" for="subscriptionSizeSmall" role="button">
+            <span class="subscription-section__option-label-value">S</span>
+          </label>
+        </div>
+        <div class="subscription-section__option subscription-section__option--size">
+          <input
+            class="subscription-section__option-input u-sr-only"
+            type="radio"
+            name="subscriptionSize"
+            id="subscriptionSizeMedium"
+            value="medium"
+            checked
+          />
+          <label class="subscription-section__option-label" for="subscriptionSizeMedium" role="button">
+            <span class="subscription-section__option-label-value">M</span>
+          </label>
+        </div>
+        <div class="subscription-section__option subscription-section__option--size">
+          <input
+            class="subscription-section__option-input u-sr-only"
+            type="radio"
+            name="subscriptionSize"
+            id="subscriptionSizeLarge"
+            value="large"
+          />
+          <label class="subscription-section__option-label" for="subscriptionSizeLarge" role="button">
+            <span class="subscription-section__option-label-value">L</span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="subscription-section">
+      <h3 class="subscription-section__title">Обери кількість доставок:</h3>
+      <div class="subscription-section__options">
+        <div class="subscription-section__option subscription-section__option--delivery">
+          <input
+            class="subscription-section__option-input u-sr-only"
+            type="radio"
+            name="subscriptionDelivery"
+            id="subscriptionDeliveryOnce"
+            value="once"
+            checked
+          />
+          <label class="subscription-section__option-label" for="subscriptionDeliveryOnce" role="button">
+            <span class="subscription-section__option-label-value">
+              <span>1</span>
+              <span class="u-text--large">на місяць</span>
+            </span>
+          </label>
+        </div>
+        <div class="subscription-section__option subscription-section__option--delivery">
+          <input
+            class="subscription-section__option-input u-sr-only"
+            type="radio"
+            name="subscriptionDelivery"
+            id="subscriptionDeliveryTwice"
+            value="twice"
+          />
+          <label class="subscription-section__option-label" for="subscriptionDeliveryTwice" role="button">
+            <span class="subscription-section__option-label-value">
+              <span>2</span>
+              <span class="u-text--large">на місяць</span>
+            </span>
+          </label>
+        </div>
+        <div class="subscription-section__option subscription-section__option--delivery">
+          <input
+            class="subscription-section__option-input u-sr-only"
+            type="radio"
+            name="subscriptionDelivery"
+            id="subscriptionDeliveryFourice"
+            value="fourice"
+          />
+          <label class="subscription-section__option-label" for="subscriptionDeliveryFourice" role="button">
+            <span class="subscription-section__option-label-value">
+              <span>4</span>
+              <span class="u-text--large">на місяць</span>
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="subscription-section">
+      <h3 class="subscription-section__title">Обери квіти:</h3>
+    </div>
+    <div>
+      TODO: БУКЕТИ
     </div>
   </main>
 
